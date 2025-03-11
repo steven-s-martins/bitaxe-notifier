@@ -27,7 +27,6 @@ NOTIFY_ON_NEW_BEST_SESSION_DIFFICULTY = bool(os.getenv(
 def check_env_vars() -> None:
     REQUIRED_VARS = [
         "BITAXE_1_IP",
-        "BITAXE_1_NAME",
         "GMAIL_USER",
         "GMAIL_APP_PASSWORD",
         "RECIPIENT"
