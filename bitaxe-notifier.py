@@ -172,7 +172,7 @@ def main() -> None:
                         f"{name} - New best difficulty: {data['bestDiff']}"
                     )
                     send_email(
-                        f"{name} - New Best Difficulty",
+                        "New Best Difficulty",
                         f"{name} achieved {data['bestDiff']} all-time best"
                     )
                     state['bestDiff'] = data['bestDiff']
@@ -185,7 +185,7 @@ def main() -> None:
                         f"{name} - New best session difficulty: {data['bestSessionDiff']}"
                     )
                     send_email(
-                        f"{name} - New Best Session Difficulty",
+                        "New Best Session Difficulty",
                         f"{name} achieved {data['bestSessionDiff']} since system boot"
                     )
                     state['bestSessionDiff'] = data['bestSessionDiff']
